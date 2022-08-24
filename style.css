@@ -136,5 +136,82 @@ h2 {
     color: #1f2937;
 }
 
+.mid-bottom {
+    height: 340px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 850px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 900;
+    margin-top: -15px;
+    margin-right: 15px;
+}
+
+.bottom {
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    height: 100px;
+    width: 800px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border-radius: 15px;
+}
+
+h4 {
+    color: #f9faf8;
+    font-size: 22px;
+}
+
+.blue-para {
+    color: #e5e7eb;
+    font-size: 15px;
+}
+
+.blue-button {  
+    all: unset;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 5px 30px;
+    border: #e5e7eb 2px solid;
+    border-radius: 5px;    
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: #e5e7eb;
+}
 
 
